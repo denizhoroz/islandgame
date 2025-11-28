@@ -20,7 +20,7 @@ public class TileManager {
         tile = new Tile[10];
         mapTileNum = new int[gp.MAX_SCREEN_COL][gp.MAX_SCREEN_ROW];
 
-        loadMap("/maps/map.txt");
+        loadMap("../assets/maps/map.txt");
         loadTile();
     }
 
